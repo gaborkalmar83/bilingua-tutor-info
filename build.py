@@ -165,12 +165,12 @@ def foot():
     more = "\n".join(f'      <li><a href="{u}">{e(t)}</a></li>' for u, t in MORE)
     return f"""<footer class="site">
   <div class="wrap">
-    <h2>More from Kalmarium</h2>
+    <h2>More from Kalmarium Services</h2>
     <ul class="more">
 {more}
     </ul>
     <p class="legal"><a href="/privacy-policy.html">Privacy policy</a> <a href="/testing.html">Join the closed test</a> <a href="mailto:{EMAIL}">{EMAIL}</a> <a href="https://kalmarium.com">kalmarium.com</a></p>
-    <p>{NAME} is made by Kalmarium. Gemma is a trademark of Google LLC. Google Play is a trademark of Google LLC. Not affiliated with any exam body.</p>
+    <p>{NAME} is made by Kalmarium Services. Gemma is a trademark of Google LLC. Google Play is a trademark of Google LLC. Not affiliated with any exam body.</p>
   </div>
 </footer>
 </body>
@@ -192,7 +192,7 @@ def jsonld_app():
 {install}  "image": "{SITE}/img/og-image.jpg",
   "inLanguage": "en",
   "offers": {{"@type": "Offer", "price": "0", "priceCurrency": "EUR", "availability": "https://schema.org/InStock"}},
-  "publisher": {{"@type": "Organization", "name": "Kalmarium", "url": "https://kalmarium.com"}}
+  "publisher": {{"@type": "Organization", "name": "Kalmarium Services", "url": "https://kalmarium.com"}}
 }}
 </script>
 """

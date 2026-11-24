@@ -2,7 +2,7 @@
 
 _Last updated: 2026-11-24. Covers Bilingua Tutor for Android (package `com.bilingua.tutor`), version 1.7._
 
-Bilingua Tutor is published by **Kalmarium**, the controller for the purposes of data protection law. Contact: kalmariumservices@gmail.com
+Bilingua Tutor is published by **Kalmarium Services**, the controller for the purposes of data protection law. Contact: kalmariumservices@gmail.com
 
 ## The short version
 
@@ -94,7 +94,7 @@ If you switch on the daily reminder, the app asks for notification permission an
 
 ## Purchase and trial
 
-The app has a 14-day free trial of the AI features and a one-off in-app purchase through Google Play Billing. Google processes the payment under its own privacy policy (https://policies.google.com/privacy). The app never sees your card or payment details. It receives the purchase record from Google Play on your device and checks its signature there; the app does not send it to the developer. Like every Play developer, Kalmarium can see order information (such as order number, country and price) in the Google Play Console.
+The app has a 14-day free trial of the AI features and a one-off in-app purchase through Google Play Billing. Google processes the payment under its own privacy policy (https://policies.google.com/privacy). The app never sees your card or payment details. It receives the purchase record from Google Play on your device and checks its signature there; the app does not send it to the developer. Like every Play developer, Kalmarium Services can see order information (such as order number, country and price) in the Google Play Console.
 
 The trial start date and the "purchased" flag are stored on the device only, in a file that is excluded from Android backup. To tie the purchased flag to your device, the app computes a hash from the device's app-specific Android ID and the app's signing certificate. The hash stays on the device.
 
@@ -182,4 +182,4 @@ If this policy changes, the update will be posted at the same address with a new
 
 ## Contact
 
-Kalmarium - kalmariumservices@gmail.com
+Kalmarium Services - kalmariumservices@gmail.com
