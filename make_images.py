@@ -20,7 +20,7 @@ for name, size in (("icon-192.png", 192), ("favicon.png", 48), ("apple-touch-ico
 
 shots = {}
 for f in sorted(os.listdir(RAW)) if os.path.isdir(RAW) else []:
-    if f.startswith("shot-") and f.endswith(".png"):
+    if f[:-4] in ("shot-map","shot-rule","shot-lucy","shot-review","shot-ai","shot-light"):
         im = Image.open(os.path.join(RAW, f)).convert("RGB")
         out = im.resize((540, 960), Image.LANCZOS)
         out.save(os.path.join(IMG, f[:-4] + ".jpg"), quality=84, optimize=True)
